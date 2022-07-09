@@ -1,0 +1,18 @@
+
+/* Montando as variáveis de cor e fonte */
+root{
+    --cor1:white;
+    --cor2:white;
+    --cor3:white;
+    --cor4:white;
+    --cor5:white;
+
+    --gradiente1:white;
+    --gradiente2:white;
+
+
+    --fonte-destaque:'Courier New', Courier, monospace;
+    --fonte-padrao:Arial, Helvetica, sans-serif;
+    --fonte-decorativa:Arial;
+
+}
