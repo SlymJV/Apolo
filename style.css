@@ -7,8 +7,8 @@ root{
     --cor4:#E5EB75 /* Amarelo */;
     --cor5:#81BAEB /* Azul */;
 
-    --gradiente1:white;
-    --gradiente2:white;
+    --gradiente1: linear-gradient(to right, #81BAEB, #8D8EEB); /* Gradiente Linear (to right) do Azul para o Lilás*/
+    --gradiente2: linear-gradient(to right, #EBCFA4, #E5EB75); /* Gradiente Linear (to right) do Bege para o Amarelo */
 
 
     --fonte-destaque:'Courier New', Courier, monospace;
