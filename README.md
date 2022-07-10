@@ -13,12 +13,12 @@ Apolo é uma rede social com o intuito de servir como uma ferramenta para influe
 
 *OBS: mais detalhes no futuro...* 
 ### Metas
- -[ ] Monografia (praticamente finalizado)
- -[ ] Login/Cadastro
- -[ ] Chat
- -[ ] Postagens (empresa, influenciador)
- -[ ] Filtros
- -[ ] Configurações
+ - [ ] Monografia (praticamente finalizado)
+ - [ ] Login/Cadastro
+ - [ ] Chat
+ - [ ] Postagens (empresa, influenciador)
+ - [ ] Filtros
+ - [ ] Configurações
 
 
 
