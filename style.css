@@ -1,19 +1,25 @@
 /* Montando as variáveis de cor e fonte */
-root {
-    --cor1: #6667AB;
-    --cor2: #EBCFA4;
-    --cor3: #8D8EEB;
-    --cor4: #E5EB75;
-    --cor5: #81BAEB;
+root{
+    --cor1:#6667AB; /*Very Peri (Roxo escuro)*/
+    --cor2:#EBCFA4; /* Bege */
+    --cor3:#8D8EEB; /* Lilás */
+    --cor4:#E5EB75; /* Amarelo */
+    --cor5:#81BAEB; /* Azul */
 
+    /* 
+    --Gradientes
 
-
-
-    --fonte-destaque: 'Courier New', Courier, monospace;
-    --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-decorativa: Arial;
+    background-image:linear-gradient(to right, #81BAEB, #8D8EEB);
+    background-image:linear-gradient(to right, #EBCFA4, #E5EB75);
+     */
+    --fonte-destaque:'Courier New', Courier, monospace;
+    --fonte-padrao:Arial, Helvetica, sans-serif;
+    --fonte-decorativa:Arial;
 
 }
+
+
+/* Configs boostrap para nav e header */
 
 .form-control-dark {
     border-color: var(--bs-gray);
@@ -32,7 +38,8 @@ root {
     outline: 0;
 }
 
-#btn-gradiente {
-    background-image: linear-gradient(to left, #81BAEB, #6667AB);
-    background-attachment: fixed;
+/* Personalizando */
+#btn-cadastro {
+    background-color:#8D8EEB;
+    background-attachment:fixed;
 }
