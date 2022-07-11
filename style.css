@@ -1,10 +1,18 @@
 /* Montando as variáveis de cor e fonte */
 root{
+    /* Cores da paleta principal */
     --cor1:#6667AB; /*Very Peri (Roxo escuro)*/
     --cor2:#EBCFA4; /* Bege */
     --cor3:#8D8EEB; /* Lilás */
     --cor4:#E5EB75; /* Amarelo */
     --cor5:#81BAEB; /* Azul */
+
+    /*Outras cores*/
+
+    --cor6:#f6183c; /*(Vermelho rosado)*/
+    --cor7:#b3b6b9; /*(Cinza)*/
+    --cor8:#e6e6e6; /*(Branco acizentado)*/
+    --cor9:#333b42; /*(Preto usado no background)*/
 
     /* 
     --Gradientes
