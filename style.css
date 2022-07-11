@@ -9,10 +9,10 @@ root{
 
     /*Outras cores*/
 
-    --cor6:#f6183c; /*(Vermelho rosado)*/
-    --cor7:#b3b6b9; /*(Cinza)*/
-    --cor8:#e6e6e6; /*(Branco acizentado)*/
-    --cor9:#333b42; /*(Preto usado no background)*/
+    --cor6:#f6183c; /* Vermelho rosado*/
+    --cor7:#b3b6b9; /* Cinza */
+    --cor8:#e6e6e6; /* Branco acizentado */
+    --cor9:#333b42; /* Preto usado no background */
 
     /* 
     --Gradientes
