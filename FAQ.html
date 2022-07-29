@@ -123,6 +123,20 @@
             -webkit-overflow-scrolling: touch;
         }
 
+        .cor_botao {
+            background-color: #333b42 !important;
+        }
+
+        .gradiente_titulo{
+            background-image:linear-gradient(to right, #81BAEB, #8D8EEB);
+            color: #333b42;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            text-align: center;
+        }
+
        /* Cores e Fontes */
         root{
         /* Cores da paleta principal */
@@ -225,13 +239,13 @@
 
    <br>
    <!--Título-->
-  <h1 style="text-align: center; color: #6667AB;"> FAQ: Perguntas frequentes.</h1>
+  <h1 class="gradiente_titulo"> FAQ: Perguntas frequentes.</h1>
 
-  <br> <br> 
+  <br>
 
     <!-- Pergunta 1-->
 <p style="text-align:center">
-    <button class="btn btn-secondary btn-lg btn-block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1" style="width: 600px;">
+    <button class="btn btn-secondary btn-lg btn-block cor_botao" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1" style="width: 600px;">
       1. O que é o site?
     </button>
   </p>
@@ -247,7 +261,7 @@
   <!-- Pergunta 2 -->
 
   <p style="text-align:center">
-    <button class="btn btn-secondary btn-lg btn-block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" style="width: 600px;">
+    <button class="btn btn-secondary btn-lg btn-block cor_botao" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" style="width: 600px;">
       2. Quem pode se cadastrar?
     </button>
   </p>
@@ -260,6 +274,7 @@
     </div>
   </div>
 
+  <br>
 <!-- Fim do conteúdo da página "FAQ"-->
 
         <!-- Início do Footer -->
