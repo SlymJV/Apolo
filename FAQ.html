@@ -137,6 +137,18 @@
             text-align: center;
         }
 
+        .background{
+            background-image: url(images/background_img.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .footer_fixacao{
+           position: fixed;
+           bottom: 0;
+           left: 0;
+        }
        /* Cores e Fontes */
         root{
         /* Cores da paleta principal */
@@ -167,8 +179,8 @@
     </style>
 </head>
 
-
 <body>
+    <!--<div class="background">--> 
 <!-- Símbolos -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="bootstrap" viewBox="0 0 118 94">
@@ -215,7 +227,7 @@
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                         <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
                         <li><a href="About_Us.html" class="nav-link px-2 text-white">Sobre nós</a></li>
-                        <li><a href="FAQ.html" class="nav-link px-2 text-white">FAQs</a></li>
+                        <li><a href="FAQ.html" class="nav-link px-2 text-white">FAQ</a></li>
                     </ul>
 
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -279,7 +291,7 @@
 
         <!-- Início do Footer -->
         <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top footer navbar-fixed-bottom">
                 <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
 
                 <a href="/"
@@ -290,14 +302,14 @@
                 <ul class="nav col-md-4 justify-content-end">
                     <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
                     <li class="nav-item"><a href="About_Us.html" class="nav-link px-2 text-muted">Sobre nós</a></li>
-                    <li class="nav-item"><a href="FAQ.html" class="nav-link px-2 text-muted">FAQs</a></li>
+                    <li class="nav-item"><a href="FAQ.html" class="nav-link px-2 text-muted">FAQ</a></li>
                 </ul>
             </footer>
         </div>
         <!-- Fim do Footer -->
 
     </main>
-
+<!-- </div> -->
 </body>
 
 </html>

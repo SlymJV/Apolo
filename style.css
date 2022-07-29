@@ -1,5 +1,8 @@
 /* Montando as variáveis de cor e fonte */
 root{
+    
+   height: 0%;
+   width: 0%;
     /* Cores da paleta principal */
     --cor1:#6667AB; /*Very Peri (Roxo escuro)*/
     --cor2:#EBCFA4; /* Bege */
